@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/bg_overlay.xml" value="0.2824074074074074" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/bg_rounded_filled_with_stroke.xml" value="0.2846153846153846" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_favorite_border.xml" value="0.15885416666666666" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_favorite_filled.xml" value="0.15885416666666666" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_film_black.xml" value="0.2846153846153846" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_loading.xml" value="0.2846153846153846" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_movie_border.xml" value="0.15885416666666666" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_movie_filled.xml" value="0.3154296875" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_response_error.xml" value="0.2846153846153846" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_share.xml" value="0.2846153846153846" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_tv_border.xml" value="0.15885416666666666" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/ic_tv_filled.xml" value="0.15885416666666666" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/selector_favorite.xml" value="0.15885416666666666" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/selector_menu_movie.xml" value="0.15885416666666666" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/drawable/selector_menu_tv.xml" value="0.15885416666666666" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/layout/_partial_error.xml" value="0.27291666666666664" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/layout/_partial_loading.xml" value="0.27291666666666664" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/layout/activity_detail.xml" value="0.14423076923076922" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/layout/activity_main.xml" value="0.14270833333333333" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/layout/fragment_movie.xml" value="0.27291666666666664" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/layout/fragment_tv.xml" value="0.13272543059777103" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/layout/item_movie_tv.xml" value="0.27291666666666664" />
+        <entry key="..\:/Android Work/Capstone/app/src/main/res/menu/menu_bottom_nav.xml" value="0.14270833333333333" />
+        <entry key="..\:/Android Work/Capstone/core/src/main/res/drawable/ic_error.xml" value="0.2846153846153846" />
+        <entry key="..\:/Android Work/Capstone/core/src/main/res/drawable/ic_film_black.xml" value="0.2846153846153846" />
+        <entry key="..\:/Android Work/Capstone/core/src/main/res/drawable/ic_loading.xml" value="0.2846153846153846" />
+        <entry key="..\:/Android Work/Capstone/core/src/main/res/layout/item_movie_tv.xml" value="0.27291666666666664" />
+        <entry key="..\:/Android Work/Capstone/favorites/src/main/res/layout/_partial_empty_favorite.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android Work/Capstone/favorites/src/main/res/layout/fragment_favorite.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android Work/Capstone/favorites/src/main/res/layout/fragment_favorite_movie.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android Work/Capstone/favorites/src/main/res/layout/fragment_favorite_tv.xml" value="0.2708333333333333" />
+        <entry key="..\:/Android Work/Capstone/favorites/src/main/res/layout/fragment_favorites.xml" value="0.2708333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
