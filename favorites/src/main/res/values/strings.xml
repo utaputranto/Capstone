@@ -1,6 +1,5 @@
 <resources>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="no_favorites">Favorite is Empty</string>
     <string name="favorite_subtitle">Press love button to add to favorite</string>
 </resources>
