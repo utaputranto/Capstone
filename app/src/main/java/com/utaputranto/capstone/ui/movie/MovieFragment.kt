@@ -140,8 +140,8 @@ class MovieFragment : BaseFragment<FragmentMovieBinding>({ FragmentMovieBinding.
     }
 
     override fun onDestroyView() {
-        super.onDestroyView()
         binding?.rvMovie?.adapter = null
+        super.onDestroyView()
     }
 }
 

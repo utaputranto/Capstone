@@ -138,7 +138,7 @@ class TvFragment : BaseFragment<FragmentTvBinding>({ FragmentTvBinding.inflate(i
     }
 
     override fun onDestroyView() {
-        super.onDestroyView()
         binding?.rvTv?.adapter = null
+        super.onDestroyView()
     }
 }
