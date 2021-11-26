@@ -138,5 +138,10 @@ class MovieFragment : BaseFragment<FragmentMovieBinding>({ FragmentMovieBinding.
         super.onAttach(context)
         (requireActivity().application as MyApplication).appComponent.inject(this)
     }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding?.rvMovie?.adapter = null
+    }
 }
 
