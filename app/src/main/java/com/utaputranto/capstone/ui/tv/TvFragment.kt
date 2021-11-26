@@ -102,9 +102,9 @@ class TvFragment : BaseFragment<FragmentTvBinding>({ FragmentTvBinding.inflate(i
         }
     }
 
-    private fun handleSearch(movies: Resource<List<MovieTv>>) {
+    private fun handleSearch(tvShows: Resource<List<MovieTv>>) {
         binding?.apply {
-            when (movies) {
+            when (tvShows) {
                 is Resource.Loading -> {
                     errorLayout.gone()
                     loading.root.visible()
@@ -112,17 +112,19 @@ class TvFragment : BaseFragment<FragmentTvBinding>({ FragmentTvBinding.inflate(i
                 is Resource.Success -> {
                     loading.root.gone()
                     errorLayout.gone()
-                    adapter.submitList(movies.data)
+                    if (tvShows.data.isNullOrEmpty()) rvTv.gone() else rvTv.visible()
+                    adapter.submitList(tvShows.data)
                 }
                 is Resource.Error -> {
                     loading.root.gone()
-                    if (movies.data.isNullOrEmpty()) {
+                    if (tvShows.data.isNullOrEmpty()) {
                         errorLayout.visible()
+                        rvTv.gone()
                         error.message.text =
-                            movies.message ?: getString(R.string.default_error_message)
+                            tvShows.message ?: getString(R.string.default_error_message)
                     } else {
                         requireContext().showToast(getString(R.string.default_error_message))
-                        adapter.submitList(movies.data)
+                        adapter.submitList(tvShows.data)
                     }
                 }
             }

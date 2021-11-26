@@ -114,12 +114,14 @@ class MovieFragment : BaseFragment<FragmentMovieBinding>({ FragmentMovieBinding.
                 is Resource.Success -> {
                     loading.root.gone()
                     errorLayout.gone()
+                    if (movies.data.isNullOrEmpty()) rvMovie.gone() else rvMovie.visible()
                     adapter.submitList(movies.data)
                 }
                 is Resource.Error -> {
                     loading.root.gone()
                     if (movies.data.isNullOrEmpty()) {
                         errorLayout.visible()
+                        rvMovie.gone()
                         error.message.text =
                             movies.message ?: getString(R.string.default_error_message)
                     } else {

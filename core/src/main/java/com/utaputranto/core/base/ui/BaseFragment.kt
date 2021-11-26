@@ -30,6 +30,11 @@ abstract class BaseFragment<B : ViewBinding>(val viewBinder: (LayoutInflater) ->
         binding = null
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
+    }
+
     protected abstract fun B.onViewCreated(savedInstanceState: Bundle?)
 
     protected abstract fun observeViewModel()
