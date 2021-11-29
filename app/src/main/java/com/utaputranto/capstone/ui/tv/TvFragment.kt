@@ -26,9 +26,10 @@ class TvFragment : BaseFragment<FragmentTvBinding>({ FragmentTvBinding.inflate(i
     lateinit var factory: ViewModelFactory
 
     private val viewModel: TvViewModel by viewModels { factory }
-    private val adapter by lazy { TvAdapter() }
+    private lateinit var adapter: TvAdapter
 
     override fun FragmentTvBinding.onViewCreated(savedInstanceState: Bundle?) {
+        adapter = TvAdapter()
         binding?.apply {
             rvTv.adapter = this@TvFragment.adapter
             rvTv.hasFixedSize()

@@ -27,9 +27,10 @@ class MovieFragment : BaseFragment<FragmentMovieBinding>({ FragmentMovieBinding.
     lateinit var factory: ViewModelFactory
 
     private val viewModel: MovieViewModel by viewModels { factory }
-    private val adapter by lazy { MovieAdapter() }
+    private lateinit var adapter: MovieAdapter
 
     override fun FragmentMovieBinding.onViewCreated(savedInstanceState: Bundle?) {
+        adapter = MovieAdapter()
         binding?.apply {
             rvMovie.adapter = this@MovieFragment.adapter
             rvMovie.hasFixedSize()
